@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: blueviolet;">
+    <div class="tepa" style="width: auto;height: 100px;">
+        <h1 style="display: flex; justify-content: center;align-items: center;"> TO DO </h1>
+        <hr>
+    </div>
+
+        <a href="{% url 'creat' %}"><div class="button" style="display: flex; justify-content: center;align-items: center; gap: 50px;">
+        <button class="kirish" style="  background-color: #04AA6D; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;cursor: pointer;">Yaratish</button></a>
+        <a href="{% url 'list' %}" ><button class="korish" style="  background-color:  #04AA6D;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;cursor: pointer;">Ko'rish</button></a>
+
+    </div>
+
+
+</body>
+</html>

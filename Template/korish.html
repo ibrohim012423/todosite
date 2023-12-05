@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:blueviolet; display: flex; justify-content: center;align-items: center;margin-top: 50px;">
+    <div style="border-style: solid; width: 1000px;height: 400px;">
+        <div style="display: flex; justify-content: space-around;align-items: center">
+            <a href="{% url 'list' %}" style="text-decoration: none;"><h2 style="cursor: pointer; text-decoration: none; color: black;">⪕orqaga</h2></a>
+            <h1>Nomi:{{ get.nomi }}</h1>
+            <h5 >Vaqt:{{ get.vaqt }}</h5>
+        </div>
+        <div style="display: flex;justify-content: center; align-items: center;height: 200px;">
+            <h3>
+                Matn:{{ get.matn }}
+            </h3>
+        </div>
+    </div>
+</body>
+</html>
